@@ -1,0 +1,50 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card {
+    height: 160px;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 450px;
+    margin-right:auto;
+    margin-left: auto;
+    background: #050409;
+    color: #edede9;;
+    border-radius: 7px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+     transform: translateY(-5px);
+}
+article{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.avatar {
+    width: 160px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.avatar:hover{
+    transform: scale(1.15);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.name{
+    font-size: 20px;
+    font-style: normal;
+}
+.ptag{
+    margin-top: 20px;
+}
+
